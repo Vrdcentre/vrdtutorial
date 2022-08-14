@@ -87,17 +87,17 @@ export function Footer() {
             <SocialButton label={"Twitter"} href={siteConfig.author.twitter}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"Facebook"} href={siteConfig.author.facebook}>
+            <SocialButton label={"Facebook"} href={siteConfig.facebook}>
               <FaFacebook />
             </SocialButton>
-            <SocialButton label={"Pinterest"} href={siteConfig.author.pinterest}>
+            <SocialButton label={"Pinterest"} href={siteConfig.pinterest}>
               <FaPinterest />
             </SocialButton>
             <SocialButton label={"YouTube"} href={siteConfig.youtube}>
               <FaYoutube />
             </SocialButton>
             </SocialButton>
-            <SocialButton label={"Tiktok"} href={siteConfig.author.tiktok}>
+            <SocialButton label={"Tiktok"} href={siteConfig.tiktok}>
               <FaTiktok />
             </SocialButton>
             <SocialButton
