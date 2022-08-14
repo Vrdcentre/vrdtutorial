@@ -14,10 +14,10 @@ export default function NotFound() {
         404
       </Heading>
       <Text fontSize="18px" mt={3} mb={2}>
-        Page Not Found
+        Page non trouvée
       </Text>
       <Text color={"gray.500"} mb={6}>
-        The page you are looking for does not seem to exist
+        La page que vous recherchez ne semble pas exister
       </Text>
 
       <Link href="/">
@@ -27,7 +27,7 @@ export default function NotFound() {
           color="white"
           variant="solid"
         >
-          Go to Home
+          "Retournez à l'accueil"
         </Button>
       </Link>
     </Box>
