@@ -12,7 +12,7 @@ export default function TopicPage({ frontMatter, mdxSource, chapters }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getFiles("learn");
+  const posts = getFiles("Apprendre");
 
   return {
     paths: posts.map((p) => ({
