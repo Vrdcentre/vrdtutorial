@@ -17,7 +17,7 @@ export default function BlogPage({ posts, total, page = 1 }) {
       />
       <ListHead
         title={"Blog"}
-        description="Nos dernières actualités, articles sur travaux de voirie, assainissement,et réseaux divers."
+        description="Nos dernières actualités, articles sur travaux de voirie, assainissement, et réseaux divers."
       />
       <Box py={10} px={[8, 12]}>
         <SimpleGrid columns={[1, 1, 1, 3]} spacing={"24"}>
