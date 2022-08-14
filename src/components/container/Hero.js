@@ -32,7 +32,7 @@ export function Hero() {
             <Text
               as={"span"}
               bgGradient={useColorModeValue(
-                "linear(to-l, #FBFBFB, #FBFBFB)",
+                "linear(to-l, #439D5C, #439D5C)",
                 "linear(to-l, #00f2fe, #4facfe)"
               )}
               bgClip={"text"}
