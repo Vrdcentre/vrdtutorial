@@ -108,7 +108,7 @@ const DestktopNav = (props) => {
             src="/favicon-old.ico"
             width={8}
             height={8}
-            alt="VRDCentre logo"
+            alt="VRDcentre logo"
           />
         </Link>
         <HStack ml={6} spacing={4}>
@@ -135,7 +135,7 @@ const DestktopNav = (props) => {
           </Text>
           <Text _hover={{ color: "green.500", cursor: "pointer" }}>
             <Link href="/about" passHref>
-              <a>VRDCentre</a>
+              <a>VRDcentre</a>
             </Link>
           </Text>
 
