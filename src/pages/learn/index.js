@@ -13,7 +13,7 @@ export default function Tutorials({ posts, total, page = 1 }) {
     <Layout>
       <Seo
         templateTitle="Apprendre"
-        description="Explorez nos parcours d'apprentissage structurés pour découvrir tout ce que vous devez savoir sur VRD."
+        description="Explorez nos parcours d'apprentissage structurés pour découvrir tout ce que vous devez savoir sur VRD (Voiries et Réseaux Divers)."
       />
       <ListHead
         title={"Apprendre"}
