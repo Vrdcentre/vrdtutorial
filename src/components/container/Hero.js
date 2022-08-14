@@ -65,11 +65,6 @@ export function Hero() {
                 Tutoriels
               </Button>
             </Link>
-            <Link href="/about" passHref>
-              <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
-                VRDCentre
-              </Button>
-            </Link>
             <Box>
               <Icon
                 as={Arrow}
@@ -86,7 +81,7 @@ export function Hero() {
                 top={"-15px"}
                 transform={"rotate(10deg)"}
               >
-                Apprenez maintenant!
+                Apprenez!
               </Text>
             </Box>
           </Stack>
