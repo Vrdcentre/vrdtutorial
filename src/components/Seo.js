@@ -5,11 +5,11 @@ export default function Seo(props) {
   const router = useRouter();
 
   const defaultMeta = {
-    title: "CodeNanshu",
-    siteName: "codenanshu",
+    title: "VRDcentre",
+    siteName: "vrdcentre",
     description:
-      "An online portfolio and blog by Ai Anshu. Showcase of my projects, and some of my thoughts about website development.",
-    url: "https://codenanshu.in",
+      "Apprendre VRD sans limites. Apprenez à votre rythme, avec un accès à vie sur mobile et ordinateur, et 100 % gratuit.",
+    url: "https://vrdcentre.com",
     image: "https://codenanshu.in/favicon/large-og.png",
     type: "website",
     robots: "follow, index",
@@ -53,7 +53,7 @@ export default function Seo(props) {
             property="og:publish_date"
             content={meta.date}
           />
-          <meta name="author" property="article:author" content="Ai Anshu" />
+          <meta name="author" property="article:author" content="VRDcentre" />
         </>
       )}
 
