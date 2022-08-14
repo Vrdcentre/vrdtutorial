@@ -67,17 +67,17 @@ const MobileNav = (props) => {
             </MenuItem>
             <MenuItem>
               <Link href="/tutorials" passHref>
-                Tutorials
+                Tutoriels
               </Link>
             </MenuItem>
             <MenuItem>
               <Link href="/notes" passHref>
-                Notes
+                FAQ
               </Link>
             </MenuItem>
             <MenuItem>
               <Link href="/learn" passHref>
-                Learn
+                Apprendre
               </Link>
             </MenuItem>
           </MenuList>
@@ -119,27 +119,27 @@ const DestktopNav = (props) => {
           </Text>
           <Text _hover={{ color: "green.500", cursor: "pointer" }}>
             <Link href="/about" passHref>
-              <a>About</a>
+              <a>À propos</a>
             </Link>
           </Text>
           <Menu isLazy>
-            <MenuButton>Lessions</MenuButton>
+            <MenuButton>Cours</MenuButton>
             <MenuList>
               <MenuItem>
                 <Link href="/tutorials" passHref>
-                  Tutorials
+                  Tutoriels
                 </Link>
               </MenuItem>
               <MenuItem>
                 <Link href="/learn" passHref>
-                  Learn
+                  Apprendre
                 </Link>
               </MenuItem>
             </MenuList>
           </Menu>
           <Text _hover={{ color: "purple.200", cursor: "pointer" }}>
             <Link href="/notes" passHref>
-              Notes
+              FAQ
             </Link>
           </Text>
         </HStack>
