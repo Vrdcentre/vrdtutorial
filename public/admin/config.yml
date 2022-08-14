@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: Vrdcentre/vrdtutorial
-  branch: dev
-  squash_merges: true
-  open_authoring: true
+  branch: main
+  squash_merges: flase
+  open_authoring: false
 
 publish_mode: editorial_workflow
 media_folder: public/assets
