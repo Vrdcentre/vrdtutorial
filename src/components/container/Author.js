@@ -10,7 +10,7 @@ import {
   Icon,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { IoCode, IoBusiness, IoPerson } from "react-icons/io5";
+import { IoBook, IoLogoUsd, IoInfiniteSharp } from "react-icons/io5";
 
 const Feature = ({ text, icon, iconBg }) => {
   return (
@@ -45,12 +45,11 @@ export function Author() {
             alignSelf={"flex-start"}
             rounded={"md"}
           >
-            Its Me
+            Uniquement VRD
           </Text>
-          <Heading>Ai Anshu</Heading>
+          <Heading>Pas d’engagement</Heading>
           <Text color={"gray.500"} fontSize={"lg"}>
-            A self taught computer programmer and internet entrepreneur know for
-            dreams, goals and computers
+            ✨ Apprendre n’épuise jamais l’esprit.
           </Text>
           <Stack
             spacing={4}
@@ -61,19 +60,19 @@ export function Author() {
             }
           >
             <Feature
-              icon={<Icon as={IoCode} color={"yellow.500"} w={5} h={5} />}
+              icon={<Icon as={IoBook} color={"yellow.500"} w={5} h={5} />}
               iconBg={useColorModeValue("yellow.100", "yellow.900")}
-              text={"Computer Programmer"}
+              text={"Plus de 500 articles"}
             />
             <Feature
-              icon={<Icon as={IoBusiness} color={"green.500"} w={5} h={5} />}
+              icon={<Icon as={IoLogoUsd} color={"green.500"} w={5} h={5} />}
               iconBg={useColorModeValue("green.100", "green.900")}
-              text={"Internet Entrepreneur"}
+              text={"100% gratuit"}
             />
             <Feature
-              icon={<Icon as={IoPerson} color={"purple.500"} w={5} h={5} />}
+              icon={<Icon as={IoInfiniteSharp} color={"purple.500"} w={5} h={5} />}
               iconBg={useColorModeValue("purple.100", "purple.900")}
-              text={"Good Student"}
+              text={"accès illimité"}
             />
           </Stack>
         </Stack>
