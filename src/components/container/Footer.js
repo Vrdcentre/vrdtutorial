@@ -96,7 +96,6 @@ export function Footer() {
             <SocialButton label={"YouTube"} href={siteConfig.youtube}>
               <FaYoutube />
             </SocialButton>
-            </SocialButton>
             <SocialButton label={"Tiktok"} href={siteConfig.tiktok}>
               <FaTiktok />
             </SocialButton>
