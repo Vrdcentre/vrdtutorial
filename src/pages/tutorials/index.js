@@ -16,7 +16,7 @@ export default function Tutorials({ posts, total, page = 1 }) {
         description="Tutoriels en VRD (Voiries et Réseaux Divers)."
       />
       <ListHead
-        title={"Tutorials"}
+        title={"Tutoriels"}
         description="Tutoriels en VRD (Voiries et Réseaux Divers)."
       />
       <Box py={16} px={[6, 28]}>
