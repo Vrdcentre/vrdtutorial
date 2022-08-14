@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube, FaFacebookF, FaPinterestP, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube, FaFacebook, FaPinterest, FaTiktok } from "react-icons/fa";
 import siteConfig from "configs/config";
 import Link from "next/link";
 
@@ -88,17 +88,17 @@ export function Footer() {
               <FaTwitter />
             </SocialButton>
             <SocialButton label={"Facebook"} href={siteConfig.author.facebook}>
-              <FaFacebookF />
+              <FaFacebook />
             </SocialButton>
             <SocialButton label={"Pinterest"} href={siteConfig.author.pinterest}>
-              <IoLogoPinterest />
+              <FaPinterest />
             </SocialButton>
             <SocialButton label={"YouTube"} href={siteConfig.youtube}>
               <FaYoutube />
             </SocialButton>
             </SocialButton>
             <SocialButton label={"Tiktok"} href={siteConfig.author.tiktok}>
-              <IoLogoTiktok />
+              <FaTiktok />
             </SocialButton>
             <SocialButton
               label={"Instagram"}
