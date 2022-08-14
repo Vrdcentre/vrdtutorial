@@ -13,11 +13,11 @@ export default function BlogPage({ posts, total, page = 1 }) {
     <Layout>
       <Seo
         templateTitle="Notes"
-        description="Thoughts, mental models, invantions and much more at one place grab my all latest notes about the web."
+        description="Vous trouverez ici les questions fréquemment posées sur VRDcentre."
       />
       <ListHead
         title={"Notes"}
-        description="My latest thoughts, updates, stories and invantions "
+        description="FAQ sur VRDcentre"
       />
       <Box py={16} px={[8, 48]}>
         <VStack spacing={"8"}>
@@ -37,14 +37,14 @@ export default function BlogPage({ posts, total, page = 1 }) {
         <Flex justifyContent={"space-between"} mt={16}>
           {hasPreviousPage ? (
             <Link href={urlPrefix + `/${page - 1}`} passHref>
-              <Button>Prev</Button>
+              <Button>Précédent</Button>
             </Link>
           ) : (
             <Box></Box>
           )}
           {hasNextPage && (
             <Link href={urlPrefix + `/${page + 1}`} passHref>
-              <Button>Next</Button>
+              <Button>Suivant</Button>
             </Link>
           )}
         </Flex>
