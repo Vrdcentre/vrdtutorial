@@ -27,25 +27,22 @@ export function Hero() {
             lineHeight={"110%"}
             as="h1"
           >
-            I Am Anshu trying <br />
-            to build{" "}
+            Apprendre <br />
+           {" "}
             <Text
               as={"span"}
               bgGradient={useColorModeValue(
-                "linear(to-l, #7928CA, #FF0080)",
+                "linear(to-l, #FBFBFB, #FBFBFB)",
                 "linear(to-l, #00f2fe, #4facfe)"
               )}
               bgClip={"text"}
               fontWeight="extrabold"
             >
-              new web for everyone
+              VRD sans limites
             </Text>
           </Heading>
           <Text color={useColorModeValue("gray.500", "gray.300")}>
-            I specialize in rapidly building software companies and web
-            applications. I talk about my journey on Twitter, commit code to
-            Github, and take shots on Dribbble. you can find me in your
-            computer.
+            Apprenez à votre rythme, avec un accès à vie sur mobile et ordinateur, et 100 % gratuit.
           </Text>
           <Stack
             direction={"column"}
@@ -65,12 +62,12 @@ export function Hero() {
                 }}
                 color={"white"}
               >
-                Tutorials
+                Tutoriels
               </Button>
             </Link>
             <Link href="/about" passHref>
               <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
-                About
+                VRDCentre
               </Button>
             </Link>
             <Box>
@@ -89,7 +86,7 @@ export function Hero() {
                 top={"-15px"}
                 transform={"rotate(10deg)"}
               >
-                Learn from me
+                Apprenez maintenant!
               </Text>
             </Box>
           </Stack>
