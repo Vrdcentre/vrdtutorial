@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: aianshume/codenanshu
+  repo: Vrdcentre/vrdtutorial
   branch: dev
   squash_merges: true
   open_authoring: true
