@@ -14,12 +14,12 @@ export default function BlogPagination({ posts, page, total }) {
     <>
       <Seo
         templateTitle="Blog"
-        description="Thoughts, mental models, and tutorials about front-end development. Rebuild your mental model so front-end development can be predictable."
+        description="Articles, vidéos et tutoriels VRD (Voiries et Réseaux Divers)."
       />
       <Layout>
         <ListHead
           title={"Blog"}
-          description="Our latest news, updates, and stories for developers"
+          description="Nos dernières actualités, logiciels VRD, vidéos explicatives et plus encore."
         />
         <Box py={10} px={[8, 10]}>
           <SimpleGrid columns={[1, 1, 1, 3]} spacing={12}>
@@ -39,14 +39,14 @@ export default function BlogPagination({ posts, page, total }) {
           <Flex justifyContent={"space-between"} mt={16}>
             {hasPreviousPage ? (
               <Link href={urlPrefix + `/${page - 1}`} passHref>
-                <Button>Prev</Button>
+                <Button>Précédent</Button>
               </Link>
             ) : (
               <Box></Box>
             )}
             {hasNextPage && (
               <Link href={urlPrefix + `/${page + 1}`} passHref>
-                <Button>Next</Button>
+                <Button>Suivant</Button>
               </Link>
             )}
           </Flex>
