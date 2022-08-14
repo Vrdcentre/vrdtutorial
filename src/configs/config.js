@@ -1,13 +1,13 @@
-const baseUrl = "https://github.com/aianshume/codenanshu";
+const baseUrl = "https://github.com/Vrdcentre/vrdtutorial";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Codenanshu, build with ❤️,✨ of AC.`,
+  copyright: `Copyright © ${new Date().getFullYear()} VRDCentre.`,
   postPerPage: 9,
   author: {
     name: "Ai Anshu",
     github: "https://github.com/aianshume",
-    twitter: "https://twitter.com/aianshume",
-    instagram: "https://instagram.com/aianshu",
+    twitter: "https://twitter.com/vrdcentre",
+    instagram: "https://instagram.com/vrdcentre",
     email: "aianshume@yahoo.com",
   },
   repo: {
@@ -34,9 +34,9 @@ const siteConfig = {
     },
     openGraph: {
       type: "website",
-      locale: "en_US",
-      url: "https://codenanshu.in",
-      title: "CodeNanshu",
+      locale: "fr_FR",
+      url: "https://vrdtutorial.netlify.app",
+      title: "VRDCentre",
       description:
         "Content based platefrom for developer to learn how to code.",
       site_name:
