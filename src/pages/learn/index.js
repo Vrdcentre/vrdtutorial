@@ -12,12 +12,12 @@ export default function Tutorials({ posts, total, page = 1 }) {
   return (
     <Layout>
       <Seo
-        templateTitle="Learn"
-        description="Explore our structured learning paths to discover everything you need to know about building for the modern web."
+        templateTitle="Apprendre"
+        description="Explorez nos parcours d'apprentissage structurés pour découvrir tout ce que vous devez savoir sur VRD."
       />
       <ListHead
-        title={"Learn"}
-        description="Explore our structured learning paths to discover everything you need to know about building for the modern web."
+        title={"Apprendre"}
+        description="Explorez nos parcours d'apprentissage structurés pour découvrir tout ce que vous devez savoir sur VRD."
       />
       <Box py={16} px={[6, 28]}>
         <SimpleGrid columns={[1, 1, 1, 3]} spacing={"12"}>
@@ -30,7 +30,7 @@ export default function Tutorials({ posts, total, page = 1 }) {
                 description={post.frontMatter.description}
                 link={post.frontMatter.slug}
                 list={post.frontMatter.list}
-                category={"learn"}
+                category={"Apprendre"}
               />
             );
           })}
@@ -38,14 +38,14 @@ export default function Tutorials({ posts, total, page = 1 }) {
         <Flex justifyContent={"space-between"} mt={16}>
           {hasPreviousPage ? (
             <Link href={urlPrefix + `/${page - 1}`} passHref>
-              <Button>Prev</Button>
+              <Button>Précédent</Button>
             </Link>
           ) : (
             <Box></Box>
           )}
           {hasNextPage && (
             <Link href={urlPrefix + `/${page + 1}`} passHref>
-              <Button>Next</Button>
+              <Button>Suivant</Button>
             </Link>
           )}
         </Flex>
