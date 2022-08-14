@@ -13,11 +13,11 @@ export default function BlogPage({ posts, total, page = 1 }) {
     <Layout>
       <Seo
         templateTitle="Blog"
-        description="Thoughts, mental models, and tutorials about front-end development. Rebuild your mental model so front-end development can be predictable."
+        description="Articles sur travaux de voirie, assainissement, réseaux divers (l’alimentation en eau potable, le réseau de distribution électrique et en gaz), et ouvrages annexes (les murs de soutènement, travaux de maçonnerie, et ...)."
       />
       <ListHead
         title={"Blog"}
-        description="Our latest news, updates, and stories for developers"
+        description="Nos dernières actualités, articles sur travaux de voirie, assainissement,et réseaux divers."
       />
       <Box py={10} px={[8, 12]}>
         <SimpleGrid columns={[1, 1, 1, 3]} spacing={"24"}>
@@ -37,14 +37,14 @@ export default function BlogPage({ posts, total, page = 1 }) {
         <Flex justifyContent={"space-between"} mt={16}>
           {hasPreviousPage ? (
             <Link href={urlPrefix + `/${page - 1}`} passHref>
-              <Button>Prev</Button>
+              <Button>Précédent</Button>
             </Link>
           ) : (
             <Box></Box>
           )}
           {hasNextPage && (
             <Link href={urlPrefix + `/${page + 1}`} passHref>
-              <Button>Next</Button>
+              <Button>Suivant</Button>
             </Link>
           )}
         </Flex>
