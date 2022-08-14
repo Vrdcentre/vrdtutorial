@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube, FaFacebookF, IoLogoTiktok, IoLogoPinterest } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube, FaFacebookF, FaPinterestP, FaTiktok } from "react-icons/fa";
 import siteConfig from "configs/config";
 import Link from "next/link";
 
@@ -64,7 +64,7 @@ export function Footer() {
            Publier
           </a>
           <a href={"#"}>Soutenez</a>
-          <Link href={"/guestbook"}>Vos réactions</Link>
+          <Link href={"/guestbook"}>Votre avis</Link>
         </Stack>
       </Container>
 
