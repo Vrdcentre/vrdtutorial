@@ -27,7 +27,7 @@ export default function NotFound() {
           color="white"
           variant="solid"
         >
-          "Retournez à l'accueil"
+          Retournez à l'accueil
         </Button>
       </Link>
     </Box>
