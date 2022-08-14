@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube, FaFacebookF, IoLogoTiktok, IoLogoPinterest } from "react-icons/fa";
 import siteConfig from "configs/config";
 import Link from "next/link";
 
@@ -55,16 +55,16 @@ export function Footer() {
           spacing={6}
           flexWrap="wrap"
         >
-          <a href="https://docs.codenanshu.in">Docs</a>
+          <a href="#">Annoncez</a>
           <a
             href={
-              "https://cute-stage-771.notion.site/91c186558f9c49888f3c01dd04530581?v=2ac057e75feb46f1af00d8ffe35ceb26"
+              "#"
             }
           >
-            Books Notes
+           Publier
           </a>
-          <a href={"#"}>Analytics</a>
-          <Link href={"/guestbook"}>GuestBook</Link>
+          <a href={"#"}>Soutenez</a>
+          <Link href={"/guestbook"}>Vos réactions</Link>
         </Stack>
       </Container>
 
@@ -87,8 +87,18 @@ export function Footer() {
             <SocialButton label={"Twitter"} href={siteConfig.author.twitter}>
               <FaTwitter />
             </SocialButton>
+            <SocialButton label={"Facebook"} href={siteConfig.author.facebook}>
+              <FaFacebookF />
+            </SocialButton>
+            <SocialButton label={"Pinterest"} href={siteConfig.author.pinterest}>
+              <IoLogoPinterest />
+            </SocialButton>
             <SocialButton label={"YouTube"} href={siteConfig.youtube}>
               <FaYoutube />
+            </SocialButton>
+            </SocialButton>
+            <SocialButton label={"Tiktok"} href={siteConfig.author.tiktok}>
+              <IoLogoTiktok />
             </SocialButton>
             <SocialButton
               label={"Instagram"}
