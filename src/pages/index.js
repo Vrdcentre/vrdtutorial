@@ -28,17 +28,17 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
   return (
     <>
       <Seo
-        templateTitle="Developer blog"
-        description="Thoughts, mental models, and tutorials about front-end development. Rebuild your mental model so front-end development can be predictable."
+        templateTitle="Apprendre VRD sans limites"
+        description="VRDcentre est un service gratuit qui vous aide à apprendre travaux de voirie, assainissement, réseaux divers."
       />
       <div>
         <HeroSection />
         {/* here is the section for latest blog post */}
         <Stack w={"100%"} px={10} py={5} spacing={8}>
           <Flex justifyContent={"space-between"} pr={[0, 20]}>
-            <Text>Latest Articles</Text>
+            <Text>Derniers articles</Text>
             <Link href="/blog" passHref>
-              All Posts
+              Tous les articles
             </Link>
           </Flex>
           <SimpleGrid columns={[1, 2, 3, 4]} spacing={3}>
@@ -68,7 +68,7 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
                   </Link>
                   <Text>{post.frontMatter.description}</Text>
                   <Link href={`blog/${post.frontMatter.slug}`} passHref>
-                    <Text color="green.400">Read More</Text>
+                    <Text color="green.400">Lire la suite</Text>
                   </Link>
                 </Stack>
               );
@@ -82,9 +82,9 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
       <Box py={20}>
         <Stack w={"100%"} px={10} py={5} spacing={8}>
           <Flex justifyContent={"space-between"} pr={[0, 20]}>
-            <Text>Latest Tutorials</Text>
+            <Text>Derniers tutoriels</Text>
             <Link href="/blog" passHref>
-              All Posts
+              Tous les articles
             </Link>
           </Flex>
           <SimpleGrid columns={[1, 2, 3]} spacing={20}>
@@ -110,9 +110,9 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
       <Box py={20}>
         <Stack w={"100%"} px={10} py={5} spacing={8}>
           <Flex justifyContent={"space-between"} pr={[0, 20]}>
-            <Text>Latest Lessions</Text>
+            <Text>Dernières leçons</Text>
             <Link href="/blog" passHref>
-              All Posts
+              Tous les articles
             </Link>
           </Flex>
           <SimpleGrid columns={[1, 2, 3]} spacing={20} pt={10}>
@@ -156,17 +156,17 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
               mt="6"
               mb="6"
             >
-              {"Want to contribute in this project"}
+              {"Vous avez aimé les cours de VRDcentre, et souhaitez y contribuer ?"}
             </chakra.h2>
             <Text mb="40px" fontSize="lg" opacity={0.7}>
               {
-                "open your PR of your quality code and be a member of this open source project."
+                "Si vous avez aimé les cours de VRDCentre, et que vous souhaitez contribuer en partageant vos connaissances, et faire de cette communauté la plus grande communauté VRD sur le web."
               }
             </Text>
           </Flex>
           <Link
             passHref
-            href="https://github.com/aianshume/codenanshu"
+            href="https://t.me/vrdcentre"
             isExternal
           >
             <Button
@@ -178,7 +178,7 @@ export default function Home({ blogPosts, tutorialsPost, lessionsPost }) {
               colorScheme="blue"
               rightIcon={<FaArrowRight fontSize="0.8em" />}
             >
-              {"contribute"}
+              {"Rejoignez-nous"}
             </Button>
           </Link>
         </Container>
