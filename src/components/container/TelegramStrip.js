@@ -23,11 +23,11 @@ export function TelegramStrip(props) {
             </Flex>
             <Box>
               <Heading size="md" lineHeight="1.2" mb="1">
-                {"Connect with the community"}
+                {"Rejoignez-nous"}
               </Heading>
               <Text opacity={0.7}>
                 {
-                  "Feel free to ask questions, report issues, and meet new people."
+                  "Avez-vous des questions, des suggestions ou peut-être voulez-vous rencontrer de nouvelles personnes dans le domaine, alors rejoignez-nous maintenant !"
                 }
               </Text>
             </Box>
@@ -40,7 +40,7 @@ export function TelegramStrip(props) {
             justifyContent="center"
             display="inline-flex"
             alignItems="center"
-            href="https://t.me/codenanshu"
+            href="https://t.me/vrdcentre"
             rel="noopener"
             target="_blank"
             fontWeight="bold"
@@ -51,7 +51,7 @@ export function TelegramStrip(props) {
             rounded="lg"
             fontSize="md"
           >
-            {"Join the #codeNanshu"}
+            {"Rejoignez #vrdcentre"}
           </chakra.button>
         </Flex>
       </Container>
