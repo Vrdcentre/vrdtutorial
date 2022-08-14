@@ -5,7 +5,7 @@ import { SiTelegram } from "react-icons/si";
 
 export function TelegramStrip(props) {
   return (
-    <Box bg="#5865F2" {...props}>
+    <Box bg="#439d5c" {...props}>
       <Container py="8">
         <Flex
           direction={{ base: "column", md: "row" }}
