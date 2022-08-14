@@ -41,7 +41,7 @@ const MobileNav = (props) => {
     >
       <Flex>
         <Link href="/" passHref>
-          <Image src="/favicon-old.ico" h={8} w={8} alt="codenanshu logo" />
+          <Image src="/favicon-old.ico" h={8} w={8} alt="VRDCentre logo" />
         </Link>
       </Flex>
       <HStack ml={4}>
@@ -108,21 +108,11 @@ const DestktopNav = (props) => {
             src="/favicon-old.ico"
             width={8}
             height={8}
-            alt="codenanshu logo"
+            alt="VRDCentre logo"
           />
         </Link>
         <HStack ml={6} spacing={4}>
-          <Text _hover={{ color: "red.500", cursor: "pointer" }}>
-            <Link href="/blog" passHref>
-              <a>Blog</a>
-            </Link>
-          </Text>
-          <Text _hover={{ color: "green.500", cursor: "pointer" }}>
-            <Link href="/about" passHref>
-              <a>À propos</a>
-            </Link>
-          </Text>
-          <Menu isLazy>
+           <Menu isLazy>
             <MenuButton>Cours</MenuButton>
             <MenuList>
               <MenuItem>
@@ -137,7 +127,19 @@ const DestktopNav = (props) => {
               </MenuItem>
             </MenuList>
           </Menu>
-          <Text _hover={{ color: "purple.200", cursor: "pointer" }}>
+          
+          <Text _hover={{ color: "green.500", cursor: "pointer" }}>
+            <Link href="/blog" passHref>
+              <a>Blog</a>
+            </Link>
+          </Text>
+          <Text _hover={{ color: "green.500", cursor: "pointer" }}>
+            <Link href="/about" passHref>
+              <a>VRDCentre</a>
+            </Link>
+          </Text>
+
+          <Text _hover={{ color: "green.500", cursor: "pointer" }}>
             <Link href="/notes" passHref>
               FAQ
             </Link>
