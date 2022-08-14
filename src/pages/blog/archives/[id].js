@@ -14,12 +14,12 @@ export default function BlogPagination({ posts, page, total }) {
     <>
       <Seo
         templateTitle="Blog"
-        description="Articles, vidéos et tutoriels VRD (Voiries et Réseaux Divers)."
+        description="Articles sur travaux de voirie, assainissement, réseaux divers (l’alimentation en eau potable, le réseau de distribution électrique et en gaz), et Ouvrages annexes (les murs de soutènement, travaux de maçonnerie, et ...)"
       />
       <Layout>
         <ListHead
           title={"Blog"}
-          description="Nos dernières actualités, logiciels VRD, vidéos explicatives et plus encore."
+          description="Nos dernières actualités, articles sur travaux de voirie, assainissement,et réseaux divers."
         />
         <Box py={10} px={[8, 10]}>
           <SimpleGrid columns={[1, 1, 1, 3]} spacing={12}>
