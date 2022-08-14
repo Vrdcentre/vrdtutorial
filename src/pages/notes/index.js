@@ -12,7 +12,7 @@ export default function BlogPage({ posts, total, page = 1 }) {
   return (
     <Layout>
       <Seo
-        templateTitle="Notes"
+        templateTitle="FAQ"
         description="Vous trouverez ici les questions fréquemment posées sur VRDcentre."
       />
       <ListHead
