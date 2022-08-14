@@ -5,15 +5,15 @@ export default function Comment() {
   return (
     <Giscus
       key={"Comments"}
-      repo="aianshume/codenanshu"
-      repoId="R_kgDOHBgQ6Q"
+      repo="vrdcentre/vrdtutorial"
+      repoId="R_kgDOH0U3YA"
       category={`Q&A`}
-      categoryId="DIC_kwDOHBgQ6c4COKjd"
+      categoryId="DIC_kwDOH0U3YM4CQ1BJ"
       mapping="pathname"
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="bottom"
-      lang="en"
+      lang="fr"
       loading="lazy"
       theme={useColorModeValue("light", "dark_high_contrast")}
     />
