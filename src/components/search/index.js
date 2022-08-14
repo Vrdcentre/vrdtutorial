@@ -266,7 +266,7 @@ function OmniSearch() {
                 bg: "white",
                 ".chakra-ui-dark &": { bg: "gray.700" },
               }}
-              placeholder="Search the doc && press ctrl + K top open"
+              placeholder="Recherchez nos articles étonnants!"
               value={query}
               onChange={(e) => {
                 Query(e);
