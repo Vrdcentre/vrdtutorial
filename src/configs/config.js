@@ -1,35 +1,29 @@
 const baseUrl = "https://github.com/Vrdcentre/vrdtutorial";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} VRDCentre.`,
+  copyright: `Copyright © ${new Date().getFullYear()} VRDcentre | Alimenté par <a href = "https://akselinc.com/>Akselinc</a>"`,
   postPerPage: 9,
   author: {
-    name: "Ai Anshu",
-    github: "https://github.com/aianshume",
+    name: "VRDcentre",
     twitter: "https://twitter.com/vrdcentre",
     instagram: "https://instagram.com/vrdcentre",
-    email: "aianshume@yahoo.com",
+    email: "vrdcentre@gmail.com",
   },
   repo: {
     url: baseUrl,
     editUrl: `${baseUrl}/edit/main/website/pages`,
     blobUrl: `${baseUrl}/blob/main`,
   },
-  openCollective: {
-    url: "https://opencollective.com/codenanshu",
-  },
-  discord: {
-    url: "https://discord.gg/codenanshu",
-  },
+
   youtube: "https://youtube.com/c/CodeNanshu",
   seo: {
-    title: "CodeNanshu",
-    titleTemplate: "%s - CodeNanshu",
+    title: "VRDcentre",
+    titleTemplate: "%s - VRDcentre",
     description: "Content based platefrom for developer to learn how to code.",
-    siteUrl: "https://codenanshu.in",
+    siteUrl: "https://vrdcentre.com",
     twitter: {
-      handle: "@aianshume",
-      site: "@aianshume",
+      handle: "@vrdcentre",
+      site: "@vrdcentre",
       cardType: "summary_large_image",
     },
     openGraph: {
@@ -38,21 +32,21 @@ const siteConfig = {
       url: "https://vrdtutorial.netlify.app",
       title: "VRDCentre",
       description:
-        "Content based platefrom for developer to learn how to code.",
+        "Apprendre VRD sans limites. Apprenez à votre rythme, avec un accès à vie sur mobile et ordinateur, et 100 % gratuit.",
       site_name:
-        "CodeNanshu: Content based platefrom for developer to learn how to code.",
+        "VRDcentre: Apprendre VRD sans limites.",
       images: [
         {
           url: "https://codenanshu.in/og-image.png",
           width: 1240,
           height: 480,
-          alt: "CodeNanshu: Content based platefrom for developer to learn how to code.",
+          alt: "VRDcentre: Apprendre VRD sans limites.",
         },
         {
           url: "https://codenanshu.in/twitter-og-image.png",
           width: 1012,
           height: 506,
-          alt: "CodeNanshu: Content based platefrom for developer to learn how to code.",
+          alt: "VRDcentre: Apprendre VRD sans limites.",
         },
       ],
     },
